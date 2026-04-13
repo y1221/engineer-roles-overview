@@ -1,0 +1,108 @@
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans', 'Meiryo', sans-serif">
+
+  <rect width="720" height="420" fill="#F7F8FA"/>
+
+  <!-- Title -->
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A2E">クライアント・サーバモデル</text>
+
+  <!-- ===================== -->
+  <!-- CLIENT 1: PC（説明付き） y=55 -->
+  <!-- ===================== -->
+  <rect x="20" y="55" width="200" height="105" rx="12" fill="#EAF3FB" stroke="#4A90D9" stroke-width="2"/>
+  <text x="50" y="76" font-size="11" font-weight="bold" fill="#2C5F8A">クライアント①</text>
+  <!-- PC icon -->
+  <rect x="30" y="84" width="70" height="50" rx="4" fill="white" stroke="#4A90D9" stroke-width="1.3"/>
+  <rect x="37" y="90" width="56" height="36" rx="2" fill="#BDD9F2"/>
+  <rect x="48" y="134" width="34" height="4" rx="2" fill="#4A90D9"/>
+  <!-- labels -->
+  <text x="115" y="100" font-size="10" fill="#444">PC</text>
+  <text x="115" y="116" font-size="10" fill="#666">ユーザーが管理</text>
+  <text x="115" y="130" font-size="10" fill="#666">する端末</text>
+  <text x="110" y="150" text-anchor="middle" font-size="10" fill="#2C5F8A">👤 ユーザーが管理</text>
+
+  <!-- ===================== -->
+  <!-- CLIENT 2: タブレット（簡易） y=175 -->
+  <!-- ===================== -->
+  <rect x="20" y="173" width="200" height="82" rx="12" fill="#EAF3FB" stroke="#4A90D9" stroke-width="2"/>
+  <text x="50" y="193" font-size="11" font-weight="bold" fill="#2C5F8A">クライアント②</text>
+  <!-- Tablet icon (landscape) -->
+  <rect x="30" y="200" width="72" height="48" rx="5" fill="white" stroke="#4A90D9" stroke-width="1.3"/>
+  <rect x="36" y="205" width="58" height="36" rx="2" fill="#BDD9F2"/>
+  <circle cx="105" cy="224" r="0" fill="none"/>
+  <text x="120" y="224" font-size="10" fill="#444">タブレット</text>
+
+  <!-- ===================== -->
+  <!-- CLIENT 3: スマホ（簡易） y=270 -->
+  <!-- ===================== -->
+  <rect x="20" y="268" width="200" height="82" rx="12" fill="#EAF3FB" stroke="#4A90D9" stroke-width="2"/>
+  <text x="50" y="288" font-size="11" font-weight="bold" fill="#2C5F8A">クライアント③</text>
+  <!-- Smartphone icon -->
+  <rect x="38" y="296" width="36" height="48" rx="6" fill="white" stroke="#4A90D9" stroke-width="1.3"/>
+  <rect x="43" y="304" width="26" height="30" rx="2" fill="#BDD9F2"/>
+  <circle cx="56" cy="339" r="2.5" fill="#4A90D9"/>
+  <rect x="48" y="299" width="14" height="2.5" rx="1.2" fill="#4A90D9"/>
+  <text x="120" y="324" font-size="10" fill="#444">スマートフォン</text>
+
+  <!-- ===================== -->
+  <!-- ARROWS -->
+  <!-- ===================== -->
+  <!-- Client1 -> Server (y=107) -->
+  <line x1="222" y1="107" x2="408" y2="107" stroke="#E07B39" stroke-width="1.8" marker-end="url(#arrOrange)"/>
+  <line x1="408" y1="117" x2="222" y2="117" stroke="#4A90D9" stroke-width="1.8" marker-end="url(#arrBlue)"/>
+
+  <!-- Client2 -> Server (y=214) -->
+  <line x1="222" y1="207" x2="408" y2="207" stroke="#E07B39" stroke-width="1.8" marker-end="url(#arrOrange)"/>
+  <line x1="408" y1="217" x2="222" y2="217" stroke="#4A90D9" stroke-width="1.8" marker-end="url(#arrBlue)"/>
+
+  <!-- Client3 -> Server (y=309) -->
+  <line x1="222" y1="302" x2="408" y2="302" stroke="#E07B39" stroke-width="1.8" marker-end="url(#arrOrange)"/>
+  <line x1="408" y1="312" x2="222" y2="312" stroke="#4A90D9" stroke-width="1.8" marker-end="url(#arrBlue)"/>
+
+  <!-- Arrow labels (center column) -->
+  <text x="315" y="96" text-anchor="middle" font-size="10" fill="#E07B39">リクエスト</text>
+  <text x="315" y="132" text-anchor="middle" font-size="10" fill="#4A90D9">レスポンス</text>
+
+  <!-- ===================== -->
+  <!-- SERVER -->
+  <!-- ===================== -->
+  <rect x="412" y="55" width="288" height="295" rx="14" fill="#EDF6EC" stroke="#5BA85A" stroke-width="2"/>
+  <text x="556" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#2D6B2C">サーバ　×1</text>
+
+  <!-- Server icon -->
+  <rect x="476" y="100" width="160" height="26" rx="5" fill="white" stroke="#5BA85A" stroke-width="1.5"/>
+  <circle cx="493" cy="113" r="5" fill="#5BA85A"/>
+  <rect x="506" y="109" width="96" height="4" rx="2" fill="#C5E0C4"/>
+  <rect x="506" y="116" width="68" height="4" rx="2" fill="#C5E0C4"/>
+
+  <rect x="476" y="134" width="160" height="26" rx="5" fill="white" stroke="#5BA85A" stroke-width="1.5"/>
+  <circle cx="493" cy="147" r="5" fill="#5BA85A"/>
+  <rect x="506" y="143" width="96" height="4" rx="2" fill="#C5E0C4"/>
+  <rect x="506" y="150" width="68" height="4" rx="2" fill="#C5E0C4"/>
+
+  <rect x="476" y="168" width="160" height="26" rx="5" fill="white" stroke="#5BA85A" stroke-width="1.5"/>
+  <circle cx="493" cy="181" r="5" fill="#5BA85A"/>
+  <rect x="506" y="177" width="96" height="4" rx="2" fill="#C5E0C4"/>
+  <rect x="506" y="184" width="68" height="4" rx="2" fill="#C5E0C4"/>
+
+  <text x="556" y="222" text-anchor="middle" font-size="11" fill="#444">データ・ロジックを一元管理</text>
+  <text x="556" y="328" text-anchor="middle" font-size="11" fill="#2D6B2C">🛠 開発者が管理</text>
+
+  <!-- ===================== -->
+  <!-- BOTTOM NOTE -->
+  <!-- ===================== -->
+  <rect x="20" y="366" width="680" height="44" rx="10" fill="white" stroke="#CCC" stroke-width="1.2"/>
+  <text x="360" y="384" text-anchor="middle" font-size="11" fill="#333">
+    <tspan font-weight="bold">本質：</tspan>データとロジックをサーバ側に集めることで、
+  </text>
+  <text x="360" y="402" text-anchor="middle" font-size="11" fill="#333">どの端末からアクセスしても、同じデータ・同じ処理が使える</text>
+
+  <defs>
+    <marker id="arrOrange" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#E07B39"/>
+    </marker>
+    <marker id="arrBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4A90D9"/>
+    </marker>
+  </defs>
+
+</svg>

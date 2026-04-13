@@ -1,0 +1,88 @@
+<svg viewBox="0 0 680 370" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans', 'Meiryo', sans-serif">
+
+  <rect width="680" height="370" fill="#F7F8FA"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A2E">各エンジニアの担当領域</text>
+
+  <!-- ===== CLIENT SIDE ===== -->
+  <rect x="50" y="60" width="200" height="240" rx="14" fill="#EAF3FB" stroke="#4A90D9" stroke-width="2"/>
+  <text x="150" y="84" text-anchor="middle" font-size="12" font-weight="bold" fill="#2C5F8A">クライアント</text>
+  <text x="150" y="100" text-anchor="middle" font-size="10" fill="#666">（PC）</text>
+
+  <!-- Frontend area -->
+  <rect x="65" y="110" width="170" height="170" rx="8" fill="#D0EAFF" stroke="#4A90D9" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Browser sketch -->
+  <rect x="78" y="120" width="144" height="90" rx="6" fill="white" stroke="#4A90D9" stroke-width="1.2"/>
+  <rect x="78" y="120" width="144" height="18" rx="6" fill="#4A90D9"/>
+  <rect x="78" y="130" width="144" height="8" fill="#4A90D9"/>
+  <rect x="88" y="148" width="60" height="6" rx="2" fill="#B0CCE8"/>
+  <rect x="88" y="160" width="124" height="4" rx="2" fill="#D5E8F5"/>
+  <rect x="88" y="170" width="100" height="4" rx="2" fill="#D5E8F5"/>
+  <rect x="88" y="183" width="50" height="14" rx="3" fill="#4A90D9"/>
+  <text x="113" y="193" text-anchor="middle" font-size="8" fill="white">ボタン</text>
+
+  <text x="150" y="228" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A5A9A">フロントエンド</text>
+  <text x="150" y="244" text-anchor="middle" font-size="10" fill="#444">ブラウザの中で動く</text>
+  <text x="150" y="258" text-anchor="middle" font-size="10" fill="#555">画面の見た目・操作</text>
+
+
+  <!-- ===== ARROWS ===== -->
+  <line x1="253" y1="170" x2="355" y2="170" stroke="#E07B39" stroke-width="2.2" marker-end="url(#a1)"/>
+  <text x="304" y="162" text-anchor="middle" font-size="10" fill="#E07B39">リクエスト</text>
+  <line x1="355" y1="195" x2="253" y2="195" stroke="#4A90D9" stroke-width="2.2" marker-end="url(#a2)"/>
+  <text x="304" y="215" text-anchor="middle" font-size="10" fill="#4A90D9">レスポンス</text>
+
+  <!-- ===== SERVER SIDE ===== -->
+  <rect x="360" y="60" width="270" height="240" rx="14" fill="#EDF6EC" stroke="#5BA85A" stroke-width="2"/>
+  <text x="495" y="84" text-anchor="middle" font-size="12" font-weight="bold" fill="#2D6B2C">サーバ</text>
+
+  <!-- Backend area -->
+  <rect x="375" y="95" width="240" height="130" rx="8" fill="#D5EDD4" stroke="#5BA85A" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- App server + DB icons -->
+  <rect x="388" y="108" width="90" height="55" rx="5" fill="white" stroke="#5BA85A" stroke-width="1.2"/>
+  <text x="433" y="127" text-anchor="middle" font-size="10" fill="#2D6B2C">アプリケーション</text>
+  <rect x="395" y="133" width="76" height="6" rx="2" fill="#C5E0C4"/>
+  <rect x="395" y="143" width="56" height="6" rx="2" fill="#C5E0C4"/>
+
+  <!-- small arrow -->
+  <line x1="480" y1="135" x2="498" y2="135" stroke="#888" stroke-width="1.5" marker-end="url(#a3)"/>
+
+  <rect x="500" y="108" width="90" height="55" rx="5" fill="white" stroke="#9B59B6" stroke-width="1.2"/>
+  <ellipse cx="545" cy="122" rx="28" ry="8" fill="#EDE0F5" stroke="#9B59B6" stroke-width="1.2"/>
+  <rect x="517" y="122" width="56" height="24" fill="#EDE0F5" stroke="#9B59B6" stroke-width="1.2"/>
+  <ellipse cx="545" cy="146" rx="28" ry="8" fill="#EDE0F5" stroke="#9B59B6" stroke-width="1.2"/>
+  <text x="545" y="138" text-anchor="middle" font-size="9" fill="#6C2D8A">DB</text>
+
+  <text x="495" y="183" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A5A1A">バックエンド</text>
+  <text x="495" y="199" text-anchor="middle" font-size="10" fill="#444">サーバの中で動く</text>
+  <text x="495" y="213" text-anchor="middle" font-size="10" fill="#555">データ処理・ロジック</text>
+
+
+  <!-- Infra area -->
+  <rect x="360" y="243" width="270" height="46" rx="8" fill="#FDE8D0" stroke="#E07B39" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="495" y="262" text-anchor="middle" font-size="12" font-weight="bold" fill="#A0440A">インフラ</text>
+  <text x="495" y="278" text-anchor="middle" font-size="10" fill="#555">サーバ全体の土台</text>
+
+  <!-- ===== BOTTOM NOTE ===== -->
+  <rect x="50" y="316" width="580" height="38" rx="10" fill="white" stroke="#CCC" stroke-width="1.2"/>
+  <text x="340" y="332" text-anchor="middle" font-size="11" fill="#333">
+    <tspan font-weight="bold">フロントエンド</tspan>はクライアントで、<tspan font-weight="bold">バックエンド・インフラ</tspan>はサーバで動く
+  </text>
+  <text x="340" y="348" text-anchor="middle" font-size="11" fill="#666">
+    <tspan font-weight="bold" fill="#A0440A">インフラ：</tspan>クライアント側の環境はユーザーに任せるため、インフラエンジニアが管理するのはサーバ側のみ
+  </text>
+
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#E07B39"/>
+    </marker>
+    <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4A90D9"/>
+    </marker>
+    <marker id="a3" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#888"/>
+    </marker>
+  </defs>
+
+</svg>
